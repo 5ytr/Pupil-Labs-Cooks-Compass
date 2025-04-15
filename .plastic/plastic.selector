@@ -1,4 +1,0 @@
-repository "Pupil Labs - Cook-s Compass/Pupil Labs - Cook-s Compass@20067406980595@cloud"
-  path "/"
-    br "/main"
-    co "/main"
