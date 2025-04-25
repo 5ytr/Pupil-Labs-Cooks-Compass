@@ -1314,6 +1314,7 @@ MonoBehaviour:
   sliceableLayer:
     serializedVersion: 2
     m_Bits: 64
+  layerName: Sliceable
   cutForce: 300
 --- !u!114 &1480343898
 MonoBehaviour:
@@ -2965,7 +2966,7 @@ Transform:
   m_GameObject: {fileID: 919132148486732807}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99946254, y: -0.00019459969, z: -0.0060365023, w: -0.032219835}
-  m_LocalPosition: {x: 1.407, y: 1.601, z: 6.681}
+  m_LocalPosition: {x: 0.9, y: 1.099, z: 2.403}
   m_LocalScale: {x: 0.08012954, y: 0.08012954, z: 0.08012954}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3224,8 +3225,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.018046, y: 0.12706308, z: 1.090359}
-  m_Center: {x: -0.09102034, y: 0.014018053, z: 0.045179576}
+  m_Size: {x: 4.8553333, y: 0.21177213, z: 0.92668754}
+  m_Center: {x: -0.14781281, y: 0.0041358494, z: 0.432517}
 --- !u!1 &919132149204312524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,7 +3915,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: e5857632d05a64051bf4e246e48dee8b, type: 3}
+  - {fileID: 2100000, guid: 0c634d43759f96547a2894e2744199f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5237,7 +5238,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: e5857632d05a64051bf4e246e48dee8b, type: 3}
+  - {fileID: 2100000, guid: ff6f925c4e373426e96357a64beff317, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

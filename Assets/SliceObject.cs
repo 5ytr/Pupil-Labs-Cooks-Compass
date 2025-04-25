@@ -10,6 +10,8 @@ public class SliceObject : MonoBehaviour
     public Transform endSlicePoint;
     public VelocityEstimator velocityEstimator;
     public LayerMask sliceableLayer;
+
+    public string layerName = "Sliceable";
     public float cutForce = 300;
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,7 @@ public class SliceObject : MonoBehaviour
     public void Slice(GameObject target) 
     { 
         Vector3 velocity = velocityEstimator.GetVelocityEstimate();
+        int layerIndex = LayerMask.NameToLayer(layerName);
         Vector3 planeNormal = Vector3.Cross(endSlicePoint.position - startSlicePoint.position, velocity);
         planeNormal.Normalize();
 
@@ -40,7 +43,9 @@ public class SliceObject : MonoBehaviour
         if(hull != null) {
             GameObject upperHull = hull.CreateUpperHull(target);
             SetupSlicedComponent(upperHull);
+            upperHull.layer = layerIndex;
             GameObject lowerHull = hull.CreateLowerHull(target);
+            lowerHull.layer = layerIndex;
             SetupSlicedComponent(lowerHull);
 
             Destroy(target);
