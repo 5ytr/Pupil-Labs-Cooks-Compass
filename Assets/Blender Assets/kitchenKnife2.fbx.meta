@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Blender Assets/kitchenKnife2.fbx.meta
 guid: e5857632d05a64051bf4e246e48dee8b
+========
+guid: afc233bc8f20d425aa935ae55ecc1028
+>>>>>>>> HandlesFix:Assets/Blender Assets/oven 1.fbx.meta
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
