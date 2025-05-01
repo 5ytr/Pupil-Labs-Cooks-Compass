@@ -900,7 +900,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16384
   layerName: Sliceable
-  cutForce: 300
+  cutForce: 20
 --- !u!114 &782628380
 MonoBehaviour:
   m_ObjectHideFlags: 0
