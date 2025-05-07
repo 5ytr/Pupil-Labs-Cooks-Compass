@@ -12,7 +12,11 @@ public class SliceObject : MonoBehaviour
     public VelocityEstimator velocityEstimator;
     public LayerMask sliceableLayer;
 
+<<<<<<< Updated upstream
     public string layerName = "Sliceable";
+=======
+    public string layerName = "Ingredients";
+>>>>>>> Stashed changes
     private float cutForce = 10;
     // Start is called before the first frame update
     void Start()
@@ -27,11 +31,18 @@ public class SliceObject : MonoBehaviour
         if(hasHit)
         {
             GameObject target = hit.transform.gameObject;
+<<<<<<< Updated upstream
             if((gameObject.name != "Pestle" && target.tag != "Crushable") || (gameObject.name == "Pestle" && target.tag == "Crushable"))
             {
                 Slice(target);
             }
 
+=======
+            if ((gameObject.name != "Pestle" && target.tag != "Crushable") || (gameObject.name == "Pestle" && target.tag == "Crushable"))
+            {
+                Slice(target);
+            }
+>>>>>>> Stashed changes
         } 
     }
 
@@ -45,17 +56,28 @@ public class SliceObject : MonoBehaviour
         SlicedHull hull = target.Slice(endSlicePoint.position, planeNormal);
 
         if(hull != null) {
+<<<<<<< Updated upstream
             string upper = target.name + "Upper";
+=======
+>>>>>>> Stashed changes
             GameObject upperHull = hull.CreateUpperHull(target, target.GetComponent<MeshRenderer>().material);
             SetupSlicedComponent(upperHull);
             upperHull.layer = layerIndex;
             upperHull.tag = target.tag;
+<<<<<<< Updated upstream
             upperHull.name = upper;
             string lower = target.name + "Lower";
             GameObject lowerHull = hull.CreateLowerHull(target, target.GetComponent<MeshRenderer>().material);
             lowerHull.layer = layerIndex;
             lowerHull.tag = target.tag;
             lowerHull.name = lower;
+=======
+            upperHull.name = target.name + "Upper";
+            GameObject lowerHull = hull.CreateLowerHull(target, target.GetComponent<MeshRenderer>().material);
+            lowerHull.layer = layerIndex;
+            lowerHull.tag = target.tag;
+            lowerHull.name = target.name + "Lower";
+>>>>>>> Stashed changes
             SetupSlicedComponent(lowerHull);
 
             Destroy(target);
