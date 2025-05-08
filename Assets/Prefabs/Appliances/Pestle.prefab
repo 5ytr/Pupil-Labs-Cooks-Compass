@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1814006796433354689
+--- !u!1 &2001010249782470420
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,81 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6053377138594132867}
-  - component: {fileID: 658520120028470669}
-  - component: {fileID: 4375055206312590905}
-  - component: {fileID: 2418080989517384848}
-  - component: {fileID: 3815208831368738150}
-  - component: {fileID: 3823185537472073536}
-  - component: {fileID: 6447698341463547062}
-  m_Layer: 10
-  m_Name: GarlicClove
-  m_TagString: Crushable
+  - component: {fileID: 754852292199736065}
+  m_Layer: 0
+  m_Name: Pivot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6053377138594132867
+--- !u!4 &754852292199736065
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814006796433354689}
+  m_GameObject: {fileID: 2001010249782470420}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000037183764, y: -0.17239642, z: -0.000000006507783, w: 0.9850277}
-  m_LocalPosition: {x: 1.1289, y: 1.201, z: 3.3889}
-  m_LocalScale: {x: 3.5776896, y: 2.9025486, z: 3.7832577}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.01, y: -0.01, z: 0.036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 585173174415060925}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &6531700579469340924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 585173174415060925}
+  - component: {fileID: 3014485260133344201}
+  - component: {fileID: 1844344102613884089}
+  - component: {fileID: 207563025531464326}
+  - component: {fileID: 1145582204638474083}
+  - component: {fileID: 1828231364024466890}
+  m_Layer: 0
+  m_Name: Pestle
+  m_TagString: Pestle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &585173174415060925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6531700579469340924}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7047491, z: -0, w: 0.7094567}
+  m_LocalPosition: {x: -4.5554347, y: 1.129, z: 5.037}
+  m_LocalScale: {x: 1.8172325, y: 1.8172323, z: 5.572291}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 754852292199736065}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &658520120028470669
+  m_LocalEulerAnglesHint: {x: 0, y: -89.619, z: 0}
+--- !u!33 &3014485260133344201
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814006796433354689}
-  m_Mesh: {fileID: 7326729104330079942, guid: c61a159629b937f4990997e1f37159bc, type: 3}
---- !u!23 &4375055206312590905
+  m_GameObject: {fileID: 6531700579469340924}
+  m_Mesh: {fileID: 678701460581921409, guid: fed966bb02064d64bba9c1614064b228, type: 3}
+--- !u!23 &1844344102613884089
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814006796433354689}
+  m_GameObject: {fileID: 6531700579469340924}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -65,7 +96,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: c61a159629b937f4990997e1f37159bc, type: 3}
+  - {fileID: -6478536213147159724, guid: fed966bb02064d64bba9c1614064b228, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,13 +118,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2418080989517384848
+--- !u!64 &207563025531464326
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814006796433354689}
+  m_GameObject: {fileID: 6531700579469340924}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -108,14 +139,14 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 7326729104330079942, guid: c61a159629b937f4990997e1f37159bc, type: 3}
---- !u!54 &3815208831368738150
+  m_Mesh: {fileID: 678701460581921409, guid: fed966bb02064d64bba9c1614064b228, type: 3}
+--- !u!54 &1145582204638474083
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814006796433354689}
+  m_GameObject: {fileID: 6531700579469340924}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -136,13 +167,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3823185537472073536
+--- !u!114 &1828231364024466890
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814006796433354689}
+  m_GameObject: {fileID: 6531700579469340924}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
@@ -238,7 +269,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 754852292199736065}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -288,17 +319,3 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &6447698341463547062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814006796433354689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19c3323d204d6da40bee24b2f8b173bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyedVersion: {fileID: 8961266931862006485, guid: 1645fc1ba33517f4ab8a54e624e4c4f5, type: 3}
-  mortar: {fileID: 745088968669134936, guid: 01518ca1405a90543ae9a7e691aee187, type: 3}

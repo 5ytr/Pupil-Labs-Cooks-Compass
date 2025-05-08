@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using EzySlice;
 using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class SliceObject : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class SliceObject : MonoBehaviour
     public VelocityEstimator velocityEstimator;
     public LayerMask sliceableLayer;
 
-    public string layerName = "Sliceable";
-    public float cutForce = 300;
+    public string layerName = "Ingredients";
+    private float cutForce = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +27,10 @@ public class SliceObject : MonoBehaviour
         if(hasHit)
          {
             GameObject target = hit.transform.gameObject;
-            Slice(target);
-
+            if ((gameObject.name != "Pestle" && target.tag != "Crushable") || (gameObject.name == "Pestle" && target.tag == "Crushable"))
+            {
+                Slice(target);
+            }
         } 
     }
 
@@ -41,11 +44,15 @@ public class SliceObject : MonoBehaviour
         SlicedHull hull = target.Slice(endSlicePoint.position, planeNormal);
 
         if(hull != null) {
-            GameObject upperHull = hull.CreateUpperHull(target);
+            GameObject upperHull = hull.CreateUpperHull(target, target.GetComponent<MeshRenderer>().material);
             SetupSlicedComponent(upperHull);
             upperHull.layer = layerIndex;
-            GameObject lowerHull = hull.CreateLowerHull(target);
+            upperHull.tag = target.tag;
+            upperHull.name = target.name + "Upper";
+            GameObject lowerHull = hull.CreateLowerHull(target, target.GetComponent<MeshRenderer>().material);
             lowerHull.layer = layerIndex;
+            lowerHull.tag = target.tag;
+            lowerHull.name = target.name + "Lower";
             SetupSlicedComponent(lowerHull);
 
             Destroy(target);
@@ -56,6 +63,7 @@ public class SliceObject : MonoBehaviour
     {
         Rigidbody rb = slicedObject.AddComponent<Rigidbody>();
         MeshCollider collider = slicedObject.AddComponent<MeshCollider>();
+        XRGrabInteractable grabber = slicedObject.AddComponent<XRGrabInteractable>();
         collider.convex = true;
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
 
