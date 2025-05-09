@@ -12,7 +12,6 @@ public class CrushObjects : MonoBehaviour
         if (collision.gameObject.tag.Equals("Mortar"))
         {
             inMortar = true;
-            print("help");
         }
 
 
@@ -25,7 +24,6 @@ public class CrushObjects : MonoBehaviour
         if(!(collision.gameObject.tag.Equals("Mortar") || collision.gameObject.tag.Equals("Pestle") || collision.gameObject.layer == 10))
         {
             inMortar = false;
-            print("why??");
         }
     }
 }
