@@ -25,17 +25,19 @@ public class SliceObject : MonoBehaviour
     {
         bool hasHit = Physics.Linecast(startSlicePoint.position, endSlicePoint.position, out RaycastHit hit, sliceableLayer);
         if(hasHit)
-         {
-            GameObject target = hit.transform.gameObject;
-            if ((gameObject.name != "Pestle" && target.tag != "Crushable") || (gameObject.name == "Pestle" && target.tag == "Crushable"))
+        {
+            GameObject target = hit.collider.gameObject;
+            if (((gameObject.name != "Pestle" && target.tag != "Crushable") || (gameObject.name == "Pestle" && target.tag == "Crushable")) && (target.tag != "Unsliceable"))
             {
+                print(target.tag);
                 Slice(target);
             }
         } 
     }
 
     public void Slice(GameObject target) 
-    { 
+    {
+        target.transform.SetParent(null);
         Vector3 velocity = velocityEstimator.GetVelocityEstimate();
         int layerIndex = LayerMask.NameToLayer(layerName);
         Vector3 planeNormal = Vector3.Cross(endSlicePoint.position - startSlicePoint.position, velocity);

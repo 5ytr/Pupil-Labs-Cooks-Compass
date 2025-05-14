@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.CoreUtils;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -16,6 +17,18 @@ public class RecipeUpdater : MonoBehaviour
     private void Awake()
     {
         //print(forStep);
+    }
+    void Update()
+    {
+        //Check if peeled
+        if(transform.childCount > 0)
+        {
+            print(transform.childCount);
+        }
+        if(transform.childCount <= 5 && gameObject.name.Contains("Green Papaya"))
+        {
+            transform.GetChild(0).tag = "Untagged";
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
