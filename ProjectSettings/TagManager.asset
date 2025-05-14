@@ -7,7 +7,6 @@ TagManager:
   - Pestle
   - Mortar
   - Bowl
-  - Crushable
   layers:
   - Default
   - TransparentFX
