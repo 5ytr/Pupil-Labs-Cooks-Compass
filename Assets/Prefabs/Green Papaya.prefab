@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2812560221697843054}
   - component: {fileID: 1314228449669412231}
   - component: {fileID: 3915689948137660853}
+  - component: {fileID: 7285466782588090921}
   m_Layer: 10
   m_Name: Papaya skin split 9
   m_TagString: Untagged
@@ -106,6 +107,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6554828853678705493, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &7285466782588090921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98300345483341319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &139230551564439207
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,6 +133,7 @@ GameObject:
   - component: {fileID: 9160570954627223434}
   - component: {fileID: 6009301114144098083}
   - component: {fileID: 3222445160519707242}
+  - component: {fileID: 1803194686405250918}
   m_Layer: 10
   m_Name: Papaya skin split 18
   m_TagString: Untagged
@@ -212,6 +228,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6268549801413176021, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &1803194686405250918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139230551564439207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &1211028739584725279
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +254,7 @@ GameObject:
   - component: {fileID: 912713834308948102}
   - component: {fileID: 905164015379233018}
   - component: {fileID: 9092157661003749660}
+  - component: {fileID: 1052231377143252655}
   m_Layer: 10
   m_Name: Papaya skin split 21
   m_TagString: Untagged
@@ -318,6 +349,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5311559449389075881, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &1052231377143252655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211028739584725279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &1683990576570818963
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +375,7 @@ GameObject:
   - component: {fileID: 3999253599435738095}
   - component: {fileID: 5209579960460324930}
   - component: {fileID: 4128000934164023557}
+  - component: {fileID: 1067060141554557306}
   m_Layer: 10
   m_Name: Papaya skin split 13
   m_TagString: Untagged
@@ -424,6 +470,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7987718327378137807, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &1067060141554557306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683990576570818963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &1764298605719889502
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +496,7 @@ GameObject:
   - component: {fileID: 1279956805297213918}
   - component: {fileID: 9109443215269397266}
   - component: {fileID: 4155442808814960642}
+  - component: {fileID: 6083230726840647460}
   m_Layer: 10
   m_Name: Papaya skin split 12
   m_TagString: Untagged
@@ -530,6 +591,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 60006524420822425, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &6083230726840647460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764298605719889502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &1810791079624073351
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +617,7 @@ GameObject:
   - component: {fileID: 266832402806199809}
   - component: {fileID: 2998038984977034235}
   - component: {fileID: 5511336252767483094}
+  - component: {fileID: 8780477345962921228}
   m_Layer: 10
   m_Name: Papaya skin split 5
   m_TagString: Untagged
@@ -636,6 +712,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5825620470865909584, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &8780477345962921228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810791079624073351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &2055710707601537661
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +738,7 @@ GameObject:
   - component: {fileID: 9064681231837685723}
   - component: {fileID: 2650572101367029643}
   - component: {fileID: 5961978330453773665}
+  - component: {fileID: 2012046898237608688}
   m_Layer: 10
   m_Name: Papaya skin split 8
   m_TagString: Untagged
@@ -742,6 +833,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8335284673154849166, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &2012046898237608688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055710707601537661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &2499336511232394040
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,9 +859,10 @@ GameObject:
   - component: {fileID: 8069619967966781535}
   - component: {fileID: 2028825972927517045}
   - component: {fileID: 5463293499240519042}
+  - component: {fileID: 6039765875592057526}
   m_Layer: 10
   m_Name: Papaya 2
-  m_TagString: Untagged
+  m_TagString: Unsliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -848,6 +954,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4278568039703340522, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &6039765875592057526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2499336511232394040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &2532044894801681204
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +980,7 @@ GameObject:
   - component: {fileID: 891202333362512392}
   - component: {fileID: 4142078601267134763}
   - component: {fileID: 7350391390194329126}
+  - component: {fileID: 8588156437541910772}
   m_Layer: 10
   m_Name: Papaya skin split 17
   m_TagString: Untagged
@@ -954,6 +1075,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8526828001724619244, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &8588156437541910772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2532044894801681204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &3082983545016594962
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,6 +1101,7 @@ GameObject:
   - component: {fileID: 8646300941444148778}
   - component: {fileID: 7778469266655345901}
   - component: {fileID: 3832531081995494164}
+  - component: {fileID: 9023929838910421011}
   m_Layer: 10
   m_Name: Pivot
   m_TagString: Untagged
@@ -1060,6 +1196,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3032192863500347519, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &9023929838910421011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082983545016594962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &3456673423034760304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1222,7 @@ GameObject:
   - component: {fileID: 8812845761994572034}
   - component: {fileID: 458607029793088626}
   - component: {fileID: 3795802300040386801}
+  - component: {fileID: 8483308191477328193}
   m_Layer: 10
   m_Name: Papaya skin split 19
   m_TagString: Untagged
@@ -1166,6 +1317,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1842322367067942437, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &8483308191477328193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3456673423034760304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &3728645754462661705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1343,7 @@ GameObject:
   - component: {fileID: 8894027401699992652}
   - component: {fileID: 5599580053950489318}
   - component: {fileID: 8038315346187936484}
+  - component: {fileID: 7363071936031478310}
   m_Layer: 10
   m_Name: Papaya skin
   m_TagString: Untagged
@@ -1272,6 +1438,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5829387539999591924, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &7363071936031478310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3728645754462661705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &4004382171495031214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,6 +1464,7 @@ GameObject:
   - component: {fileID: 657267427026126498}
   - component: {fileID: 3311444508585715075}
   - component: {fileID: 5517617574154161214}
+  - component: {fileID: 2348346625170552365}
   m_Layer: 10
   m_Name: Papaya skin split 6
   m_TagString: Untagged
@@ -1378,6 +1559,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7076478803474263363, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &2348346625170552365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4004382171495031214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &4149804660650563858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,6 +1585,7 @@ GameObject:
   - component: {fileID: 7587582191665531711}
   - component: {fileID: 281788515385175848}
   - component: {fileID: 5956158198090876002}
+  - component: {fileID: 5663459107131035855}
   m_Layer: 10
   m_Name: Papaya skin split 23
   m_TagString: Untagged
@@ -1484,6 +1680,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6933916628076826910, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &5663459107131035855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4149804660650563858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &4259370261708562652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1706,7 @@ GameObject:
   - component: {fileID: 3110639393614243125}
   - component: {fileID: 6237378339380955697}
   - component: {fileID: 5658031545460728817}
+  - component: {fileID: 6191140880198790746}
   m_Layer: 10
   m_Name: Papaya skin split 2
   m_TagString: Untagged
@@ -1590,6 +1801,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5711917618769814415, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &6191140880198790746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4259370261708562652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &4571895589099851478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,6 +1827,7 @@ GameObject:
   - component: {fileID: 6148939657140180488}
   - component: {fileID: 2173119318743397666}
   - component: {fileID: 7306505123580307863}
+  - component: {fileID: 27596895206853827}
   m_Layer: 10
   m_Name: Papaya skin split 3
   m_TagString: Untagged
@@ -1696,6 +1922,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2058451677875803166, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &27596895206853827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4571895589099851478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &4790236387681619158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +1948,7 @@ GameObject:
   - component: {fileID: 61928376108638262}
   - component: {fileID: 7659417237459526729}
   - component: {fileID: 2258580737089081128}
+  - component: {fileID: 5805782902371823146}
   m_Layer: 10
   m_Name: Papaya skin split 22
   m_TagString: Untagged
@@ -1802,6 +2043,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8904668851701597256, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &5805782902371823146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4790236387681619158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &5386736920576350010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,6 +2069,7 @@ GameObject:
   - component: {fileID: 4501871960363141824}
   - component: {fileID: 719525435051712775}
   - component: {fileID: 1486298751787639825}
+  - component: {fileID: 8042668416091629762}
   m_Layer: 10
   m_Name: Papaya skin split 7
   m_TagString: Untagged
@@ -1908,6 +2164,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6030749054999874932, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &8042668416091629762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5386736920576350010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &5950083622655209633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,6 +2190,7 @@ GameObject:
   - component: {fileID: 2971700822988462361}
   - component: {fileID: 6962050685443615016}
   - component: {fileID: 6940076410998999201}
+  - component: {fileID: 1794361331037764856}
   m_Layer: 10
   m_Name: Papaya skin split 14
   m_TagString: Untagged
@@ -2014,6 +2285,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2243625430082640142, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &1794361331037764856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5950083622655209633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &6222609568834065278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,6 +2311,7 @@ GameObject:
   - component: {fileID: 2010579756944663875}
   - component: {fileID: 3510099898447651048}
   - component: {fileID: 2883038321366602611}
+  - component: {fileID: 8856851013314261915}
   m_Layer: 10
   m_Name: Papaya skin split 24
   m_TagString: Untagged
@@ -2120,6 +2406,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5089924580059481829, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &8856851013314261915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6222609568834065278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &7843332883855302622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,6 +2432,7 @@ GameObject:
   - component: {fileID: 2345629514781280637}
   - component: {fileID: 5588594521877860394}
   - component: {fileID: 6644318262214499031}
+  - component: {fileID: 2406112161116845238}
   m_Layer: 10
   m_Name: Papaya skin split 20
   m_TagString: Untagged
@@ -2226,6 +2527,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 696132172135407956, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &2406112161116845238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843332883855302622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &7933773670308562371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,6 +2553,7 @@ GameObject:
   - component: {fileID: 1961993600861962417}
   - component: {fileID: 5229888191041371819}
   - component: {fileID: 5594502677255331678}
+  - component: {fileID: 5786522722119002380}
   m_Layer: 10
   m_Name: Papaya skin split 16
   m_TagString: Untagged
@@ -2332,6 +2648,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3281761032658995131, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &5786522722119002380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7933773670308562371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &8025062922132649480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2674,7 @@ GameObject:
   - component: {fileID: 2733700705740505934}
   - component: {fileID: 968956776747477027}
   - component: {fileID: 3621462430565460040}
+  - component: {fileID: 6820744759252205606}
   m_Layer: 10
   m_Name: Papaya skin split 15
   m_TagString: Untagged
@@ -2438,6 +2769,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -78955352240730193, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &6820744759252205606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8025062922132649480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &8181034221168358137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,6 +2795,7 @@ GameObject:
   - component: {fileID: 4107690760429421848}
   - component: {fileID: 3014172084433446477}
   - component: {fileID: 4813096449597746565}
+  - component: {fileID: 3840402785184332599}
   m_Layer: 10
   m_Name: Papaya skin split 10
   m_TagString: Untagged
@@ -2544,6 +2890,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -9137593288734612319, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &3840402785184332599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8181034221168358137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &8248957451155401391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,7 +2916,8 @@ GameObject:
   - component: {fileID: -5099609370176243100}
   - component: {fileID: -5496696325128737621}
   - component: {fileID: 2078280653062979260}
-  m_Layer: 10
+  - component: {fileID: 8931963553406829941}
+  m_Layer: 0
   m_Name: Green Papaya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2805,6 +3166,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6761209, y: 2.0271354, z: 1}
   m_Center: {x: -0.7747893, y: -0.51356745, z: 0}
+--- !u!114 &8931963553406829941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8248957451155401391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &8529187622876278397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,6 +3192,7 @@ GameObject:
   - component: {fileID: 192422804844042411}
   - component: {fileID: 919405257389173813}
   - component: {fileID: 2727350487693469132}
+  - component: {fileID: 4604128535789281210}
   m_Layer: 10
   m_Name: Papaya skin split 1
   m_TagString: Untagged
@@ -2911,6 +3287,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5439958192187128891, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &4604128535789281210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8529187622876278397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &8745178067654936226
 GameObject:
   m_ObjectHideFlags: 0
@@ -2923,6 +3313,7 @@ GameObject:
   - component: {fileID: 7733758458872653449}
   - component: {fileID: 2176488948754991429}
   - component: {fileID: 6860717236719711776}
+  - component: {fileID: 7032913153315061800}
   m_Layer: 10
   m_Name: Papaya skin split 11
   m_TagString: Untagged
@@ -3017,6 +3408,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8973257227688382313, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &7032913153315061800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8745178067654936226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
 --- !u!1 &9010901810769217242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,6 +3434,7 @@ GameObject:
   - component: {fileID: 7273196407356226505}
   - component: {fileID: 6800625699144536606}
   - component: {fileID: 3179530198035881991}
+  - component: {fileID: 5773486184285169791}
   m_Layer: 10
   m_Name: Papaya skin split 4
   m_TagString: Untagged
@@ -3123,3 +3529,17 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6905601890707383586, guid: d629a4c59d424d9479702cf0d8392b31, type: 3}
+--- !u!114 &5773486184285169791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9010901810769217242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
+  forStep: 3
