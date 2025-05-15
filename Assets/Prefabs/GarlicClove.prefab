@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2418080989517384848}
   - component: {fileID: 3815208831368738150}
   - component: {fileID: 3823185537472073536}
-  - component: {fileID: -7694082028463755454}
+  - component: {fileID: 6447698341463547062}
   m_Layer: 10
   m_Name: GarlicClove
   m_TagString: Crushable
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &-7694082028463755454
+--- !u!114 &6447698341463547062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1814006796433354689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5b9b89580e4de94c9e4418216cd05d2, type: 3}
+  m_Script: {fileID: 11500000, guid: 19c3323d204d6da40bee24b2f8b173bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
-  forStep: 1
+  destroyedVersion: {fileID: 8961266931862006485, guid: 1645fc1ba33517f4ab8a54e624e4c4f5, type: 3}
+  mortar: {fileID: 745088968669134936, guid: 01518ca1405a90543ae9a7e691aee187, type: 3}

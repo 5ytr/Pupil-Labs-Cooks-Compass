@@ -21,7 +21,8 @@ public class UpdateText : MonoBehaviour
     {
         //this is a very temporary solution, PLEASE change this when it's a something else
         txt = GetComponent<TextMeshProUGUI>();
-        goal = (int)char.GetNumericValue(txt.text[txt.text.Length - 2]);
+        current = 0;
+        goal = (int)char.GetNumericValue(txt.text[txt.text.Length - 2])*2;
         tempstring = txt.text;
         theone.setStepText(this);
         print(goal);
@@ -29,7 +30,7 @@ public class UpdateText : MonoBehaviour
 
     private void Update()
     {
-        txt.SetText((txt.text.Substring(0, tempstring.Length - 4)) + (current) + "/" + (goal) + "]");
+        txt.SetText((txt.text.Substring(0, tempstring.Length - 4)) + (current/2) + "/" + (goal/2) + "]");
         theone.setCurrent(current);
         theone.setGoal(goal);
     }
@@ -43,7 +44,7 @@ public class UpdateText : MonoBehaviour
         txt.color = Color.green;
         yield return new WaitForSeconds(5);
         nextStep.SetActive(true);
-        Destroy(transform.parent.parent.parent.gameObject);
+        thisStep.SetActive(false);
     }
     public int getGoal()
     {

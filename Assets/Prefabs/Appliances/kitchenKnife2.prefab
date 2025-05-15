@@ -270,8 +270,9 @@ MonoBehaviour:
   velocityEstimator: {fileID: 4356376649658773425}
   sliceableLayer:
     serializedVersion: 2
-    m_Bits: 1024
-  layerName: Ingredients
+    m_Bits: 16384
+  layerName: Sliceable
+  cutForce: 20
 --- !u!54 &7213892797818461015
 Rigidbody:
   m_ObjectHideFlags: 0
