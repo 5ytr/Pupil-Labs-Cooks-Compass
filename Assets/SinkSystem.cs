@@ -4,16 +4,25 @@ using UnityEngine;
 
 public class SinkSystem : MonoBehaviour
 {
-    private GameObject handle;
-    // Start is called before the first frame update
+    private float rotation;
+    public ParticleSystem water;
     void Awake()
     {
-        
+        water = transform.parent.GetComponentInChildren<ParticleSystem>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        print(transform.rotation);
+        rotation = transform.localEulerAngles.x;
+        if(rotation >= 270 && rotation < 320)
+        {
+            water.Pause();
+            water.Clear();
+        }
+        else
+        {
+            water.Play();
+        }
     }
 }

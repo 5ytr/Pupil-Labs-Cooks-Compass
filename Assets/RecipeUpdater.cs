@@ -7,12 +7,15 @@ using UnityEngine;
 
 public class RecipeUpdater : MonoBehaviour
 {
-
+    //Remember to add new variables in SliceObject.cs
+    //All bools are default false
     public LoadScene other;
     public int forStep;
     private bool inMortar;
     private bool winMortar;
     private bool crushed;
+    private bool soaked;
+    private int soakTimer;
 
     private void Awake()
     {
@@ -21,22 +24,21 @@ public class RecipeUpdater : MonoBehaviour
     void Update()
     {
         //Check if peeled
-        if(transform.childCount > 0)
-        {
-            print(transform.childCount);
-        }
         if(transform.childCount <= 5 && gameObject.name.Contains("Green Papaya"))
         {
-            transform.GetChild(0).tag = "Untagged";
+            StartCoroutine(makeCuttable());
         }
     }
     private void OnCollisionEnter(Collision collision)
     {
+        //Check if Soaked in Water
+
+
         //Check if Crushed
-        if (collision.gameObject.name == "Pestle" && !crushed && forStep == 1)
+        if (collision.gameObject.name == "Pestle" && !crushed && forStep == 2)
         {
             crushed = true;
-            if(other.getCurrentStep() == 1)
+            if(other.getCurrentStep() == 2)
             {
                 forStep = 2;
                 other.increaseCurrent();
@@ -49,7 +51,7 @@ public class RecipeUpdater : MonoBehaviour
             inMortar = true;
             print(other.getCurrentStep());
             print(forStep);
-            if(other.getCurrentStep() == 2 && forStep == 2 && !winMortar)
+            if(other.getCurrentStep() == 3 && forStep == 3 && !winMortar)
             {
                 winMortar = true;
                 other.increaseCurrent();
@@ -61,7 +63,7 @@ public class RecipeUpdater : MonoBehaviour
             {
                 if (collision.gameObject.GetComponent<RecipeUpdater>().getInMortar())
                 {
-                    if (other.getCurrentStep() == 2 && forStep == 2)
+                    if (other.getCurrentStep() == 2 && forStep == 2 && !winMortar)
                     {
                         winMortar = true;
                         other.increaseCurrent();
@@ -109,5 +111,10 @@ public class RecipeUpdater : MonoBehaviour
     public void setTeto(int teto)
     {
         forStep = teto;
+    }
+    IEnumerator makeCuttable()
+    {
+        yield return new WaitForSeconds(2);
+        transform.GetChild(0).tag = "Untagged";
     }
 }

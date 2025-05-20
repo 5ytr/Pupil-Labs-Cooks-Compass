@@ -24,7 +24,6 @@ public class UpdateText : MonoBehaviour
         goal = (int)char.GetNumericValue(txt.text[txt.text.Length - 2]);
         tempstring = txt.text;
         theone.setStepText(this);
-        print(goal);
     }
 
     private void Update()

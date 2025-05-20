@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32a4fd64dca1f544ca64730b012e6e06
+guid: d2c49170a45a75145b78fa8fbf7102f8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -32,7 +32,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -41,10 +41,10 @@ ModelImporter:
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
-    importLights: 0
+    importLights: 1
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

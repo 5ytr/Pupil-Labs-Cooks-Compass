@@ -32,6 +32,7 @@ public class LoadScene : MonoBehaviour
             goal = recipetext.getGoal();
             //please change this
             totalSteps = 5;
+            StartCoroutine(troll());
         }
         //test
         //StartCoroutine(troll());
@@ -90,7 +91,7 @@ public class LoadScene : MonoBehaviour
 
     IEnumerator troll()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         current++;
     }
 }
