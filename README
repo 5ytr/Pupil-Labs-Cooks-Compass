@@ -1,0 +1,5 @@
+To Upload Cook's Compass:
+1. Pull files from repository onto your local computer drive
+2. Open Unity, press 'Add', press 'Add from local disk' and select Cook's Compass
+3. Open the project, and go to Build Settings, open Player Settings, and change Minimum API Level to 32
+4. Open Build settings, select device to VR Headset, and press build
