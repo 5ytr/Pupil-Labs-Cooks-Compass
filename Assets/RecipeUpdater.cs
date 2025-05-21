@@ -58,7 +58,7 @@ public class RecipeUpdater : MonoBehaviour
                     print(Time.fixedDeltaTime);
                 }
             }
-            catch (System.Exception e)
+            catch (System.Exception)
             {
                 //print("idk");
             }
@@ -85,8 +85,6 @@ public class RecipeUpdater : MonoBehaviour
         if(collision.gameObject.name == "Mortar")
         {
             inMortar = true;
-            print(other.getCurrentStep());
-            print(forStep);
             if(other.getCurrentStep() == 3 && forStep == 3 && !winMortar)
             {
                 winMortar = true;
