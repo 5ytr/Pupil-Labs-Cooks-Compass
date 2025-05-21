@@ -29,7 +29,6 @@ public class SliceObject : MonoBehaviour
             GameObject target = hit.collider.gameObject;
             if (((gameObject.name != "Pestle" && target.tag != "Crushable") || (gameObject.name == "Pestle" && target.tag == "Crushable")) && (target.tag != "Unsliceable"))
             {
-                print(target.tag);
                 Slice(target);
             }
         } 
@@ -77,7 +76,7 @@ public class SliceObject : MonoBehaviour
         RecipeUpdater ru = slicedObject.AddComponent<RecipeUpdater>();
 
         collider.convex = true;
-        rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
+        //rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
 
     }
 }

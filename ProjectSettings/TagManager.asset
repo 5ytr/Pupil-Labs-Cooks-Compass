@@ -10,6 +10,7 @@ TagManager:
   - Crushable
   - Unsliceable
   - Filler
+  - Plate
   layers:
   - Default
   - TransparentFX

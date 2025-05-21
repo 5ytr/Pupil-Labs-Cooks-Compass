@@ -32,7 +32,7 @@ public class LoadScene : MonoBehaviour
             goal = recipetext.getGoal();
             //please change this
             totalSteps = 5;
-            StartCoroutine(troll());
+            //StartCoroutine(troll());
         }
         //test
         //StartCoroutine(troll());

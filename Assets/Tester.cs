@@ -6,6 +6,6 @@ public class Tester : MonoBehaviour
 {
     private void OnParticleCollision(GameObject other)
     {
-        print(other.name);
+        //print(other.name);
     }
 }

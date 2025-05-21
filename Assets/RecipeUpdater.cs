@@ -15,11 +15,13 @@ public class RecipeUpdater : MonoBehaviour
     private bool winMortar;
     private bool crushed;
     private bool soaked;
-    private int soakTimer;
+    private float soakTimer;
 
     private void Awake()
     {
         //print(forStep);
+        soaked = false;
+        soakTimer = 0;
     }
     void Update()
     {
@@ -28,12 +30,46 @@ public class RecipeUpdater : MonoBehaviour
         {
             StartCoroutine(makeCuttable());
         }
+
+        //Check if papaya soaked
+        if (soaked && other.getCurrentStep() == forStep && forStep == 1)
+        {
+            other.increaseCurrent();
+            print("yay!");
+            forStep = 2;
+        }
+    }
+    private void OnCollisionStay(Collision collision)
+    {
+        //Check if Soaked in Water
+        if (gameObject.name.Contains("Green Papaya"))
+        {
+            print(collision.gameObject.tag);
+        }
+        if (collision.gameObject.tag == "Bowl")
+        {
+            try
+            {
+                bool dead = collision.gameObject.GetComponentInParent<BowlShenanigans>().getDead();
+                if (dead && !soaked)
+                {
+                    //no idea why this isnt working
+                    soakTimer += Time.fixedDeltaTime;
+                    print(Time.fixedDeltaTime);
+                }
+            }
+            catch (System.Exception e)
+            {
+                //print("idk");
+            }
+        }
+        if(soakTimer > 5)
+        {
+            soaked = true;
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
-        //Check if Soaked in Water
-
-
         //Check if Crushed
         if (collision.gameObject.name == "Pestle" && !crushed && forStep == 2)
         {
