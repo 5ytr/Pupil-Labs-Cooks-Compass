@@ -8,7 +8,7 @@ public class LoadScene : MonoBehaviour
 {
     public GameObject newObject;
     public GameObject recipe1;
-    public UpdateText recipetext;
+    public static UpdateText recipetext;
     private static int recipeNumber;
     private static int currentStep;
     private static int totalSteps;
@@ -32,6 +32,7 @@ public class LoadScene : MonoBehaviour
             goal = recipetext.getGoal();
             //please change this
             totalSteps = 5;
+            StartCoroutine(troll());
         }
         //test
         //StartCoroutine(troll());
@@ -53,6 +54,10 @@ public class LoadScene : MonoBehaviour
     {
         current++;
     }
+    public void decreaseCurrent()
+    {
+        current--;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -60,9 +65,8 @@ public class LoadScene : MonoBehaviour
         if (current >= goal && !runOnce)
         {
             runOnce = true;
-            currentStep++;
-            StartCoroutine(EndSequence());
             StartCoroutine(recipetext.EndSequence());
+            StartCoroutine(EndSequence());
         }
 
         if(currentStep == totalSteps)
@@ -79,14 +83,15 @@ public class LoadScene : MonoBehaviour
     {
         print("yeah");
         yield return new WaitForSeconds(5);
+        current = 0;
         currentStep++;
         runOnce = false;
-        recipetext = newObject.GetComponentInChildren<UpdateText>();
+        print(recipetext.txt.text);
     }
 
     IEnumerator troll()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         current++;
     }
 }
