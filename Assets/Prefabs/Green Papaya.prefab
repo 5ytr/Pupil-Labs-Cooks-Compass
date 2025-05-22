@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1314228449669412231}
   - component: {fileID: 3915689948137660853}
   - component: {fileID: 7285466782588090921}
+  - component: {fileID: 7197965518945257167}
   m_Layer: 10
   m_Name: Papaya skin split 9
   m_TagString: Untagged
@@ -121,6 +122,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &7197965518945257167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98300345483341319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &139230551564439207
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,6 +147,7 @@ GameObject:
   - component: {fileID: 6009301114144098083}
   - component: {fileID: 3222445160519707242}
   - component: {fileID: 1803194686405250918}
+  - component: {fileID: 3255603824354397725}
   m_Layer: 10
   m_Name: Papaya skin split 18
   m_TagString: Untagged
@@ -242,6 +256,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &3255603824354397725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139230551564439207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1211028739584725279
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +281,7 @@ GameObject:
   - component: {fileID: 905164015379233018}
   - component: {fileID: 9092157661003749660}
   - component: {fileID: 1052231377143252655}
+  - component: {fileID: 1229545819770134857}
   m_Layer: 10
   m_Name: Papaya skin split 21
   m_TagString: Untagged
@@ -363,6 +390,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &1229545819770134857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211028739584725279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1683990576570818963
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +415,7 @@ GameObject:
   - component: {fileID: 5209579960460324930}
   - component: {fileID: 4128000934164023557}
   - component: {fileID: 1067060141554557306}
+  - component: {fileID: 3826680683191333388}
   m_Layer: 10
   m_Name: Papaya skin split 13
   m_TagString: Untagged
@@ -484,6 +524,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &3826680683191333388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683990576570818963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1764298605719889502
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +549,7 @@ GameObject:
   - component: {fileID: 9109443215269397266}
   - component: {fileID: 4155442808814960642}
   - component: {fileID: 6083230726840647460}
+  - component: {fileID: 4213748894333495329}
   m_Layer: 10
   m_Name: Papaya skin split 12
   m_TagString: Untagged
@@ -605,6 +658,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &4213748894333495329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764298605719889502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1810791079624073351
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,6 +683,7 @@ GameObject:
   - component: {fileID: 2998038984977034235}
   - component: {fileID: 5511336252767483094}
   - component: {fileID: 8780477345962921228}
+  - component: {fileID: 4996232916599980469}
   m_Layer: 10
   m_Name: Papaya skin split 5
   m_TagString: Untagged
@@ -726,6 +792,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &4996232916599980469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810791079624073351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2055710707601537661
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +817,7 @@ GameObject:
   - component: {fileID: 2650572101367029643}
   - component: {fileID: 5961978330453773665}
   - component: {fileID: 2012046898237608688}
+  - component: {fileID: 5835216301705224265}
   m_Layer: 10
   m_Name: Papaya skin split 8
   m_TagString: Untagged
@@ -847,6 +926,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &5835216301705224265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055710707601537661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2499336511232394040
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +951,7 @@ GameObject:
   - component: {fileID: 2028825972927517045}
   - component: {fileID: 5463293499240519042}
   - component: {fileID: 6039765875592057526}
+  - component: {fileID: 2657167945128158909}
   m_Layer: 10
   m_Name: Papaya 2
   m_TagString: Unsliceable
@@ -968,6 +1060,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &2657167945128158909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2499336511232394040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2532044894801681204
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,6 +1085,7 @@ GameObject:
   - component: {fileID: 4142078601267134763}
   - component: {fileID: 7350391390194329126}
   - component: {fileID: 8588156437541910772}
+  - component: {fileID: 1469462306695394597}
   m_Layer: 10
   m_Name: Papaya skin split 17
   m_TagString: Untagged
@@ -1089,6 +1194,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &1469462306695394597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2532044894801681204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3082983545016594962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,6 +1219,7 @@ GameObject:
   - component: {fileID: 7778469266655345901}
   - component: {fileID: 3832531081995494164}
   - component: {fileID: 9023929838910421011}
+  - component: {fileID: 1247164401052341040}
   m_Layer: 10
   m_Name: Pivot
   m_TagString: Untagged
@@ -1210,6 +1328,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &1247164401052341040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082983545016594962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3456673423034760304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,6 +1353,7 @@ GameObject:
   - component: {fileID: 458607029793088626}
   - component: {fileID: 3795802300040386801}
   - component: {fileID: 8483308191477328193}
+  - component: {fileID: 6375182645784701537}
   m_Layer: 10
   m_Name: Papaya skin split 19
   m_TagString: Untagged
@@ -1331,6 +1462,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &6375182645784701537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3456673423034760304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3728645754462661705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1487,7 @@ GameObject:
   - component: {fileID: 5599580053950489318}
   - component: {fileID: 8038315346187936484}
   - component: {fileID: 7363071936031478310}
+  - component: {fileID: 2846985277812645537}
   m_Layer: 10
   m_Name: Papaya skin
   m_TagString: Untagged
@@ -1452,6 +1596,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &2846985277812645537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3728645754462661705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4004382171495031214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,6 +1621,7 @@ GameObject:
   - component: {fileID: 3311444508585715075}
   - component: {fileID: 5517617574154161214}
   - component: {fileID: 2348346625170552365}
+  - component: {fileID: 8267360436120415700}
   m_Layer: 10
   m_Name: Papaya skin split 6
   m_TagString: Untagged
@@ -1573,6 +1730,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &8267360436120415700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4004382171495031214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4149804660650563858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1755,7 @@ GameObject:
   - component: {fileID: 281788515385175848}
   - component: {fileID: 5956158198090876002}
   - component: {fileID: 5663459107131035855}
+  - component: {fileID: 2466845469769334405}
   m_Layer: 10
   m_Name: Papaya skin split 23
   m_TagString: Untagged
@@ -1694,6 +1864,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &2466845469769334405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4149804660650563858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4259370261708562652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,6 +1889,7 @@ GameObject:
   - component: {fileID: 6237378339380955697}
   - component: {fileID: 5658031545460728817}
   - component: {fileID: 6191140880198790746}
+  - component: {fileID: 956067007948281387}
   m_Layer: 10
   m_Name: Papaya skin split 2
   m_TagString: Untagged
@@ -1815,6 +1998,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &956067007948281387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4259370261708562652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4571895589099851478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,6 +2023,7 @@ GameObject:
   - component: {fileID: 2173119318743397666}
   - component: {fileID: 7306505123580307863}
   - component: {fileID: 27596895206853827}
+  - component: {fileID: 3956016602735966840}
   m_Layer: 10
   m_Name: Papaya skin split 3
   m_TagString: Untagged
@@ -1936,6 +2132,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &3956016602735966840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4571895589099851478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4790236387681619158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,6 +2157,7 @@ GameObject:
   - component: {fileID: 7659417237459526729}
   - component: {fileID: 2258580737089081128}
   - component: {fileID: 5805782902371823146}
+  - component: {fileID: 4633431376424618669}
   m_Layer: 10
   m_Name: Papaya skin split 22
   m_TagString: Untagged
@@ -2057,6 +2266,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &4633431376424618669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4790236387681619158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5386736920576350010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,6 +2291,7 @@ GameObject:
   - component: {fileID: 719525435051712775}
   - component: {fileID: 1486298751787639825}
   - component: {fileID: 8042668416091629762}
+  - component: {fileID: 6722628962975703705}
   m_Layer: 10
   m_Name: Papaya skin split 7
   m_TagString: Untagged
@@ -2178,6 +2400,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &6722628962975703705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5386736920576350010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5950083622655209633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2191,6 +2425,7 @@ GameObject:
   - component: {fileID: 6962050685443615016}
   - component: {fileID: 6940076410998999201}
   - component: {fileID: 1794361331037764856}
+  - component: {fileID: 7895950267951890716}
   m_Layer: 10
   m_Name: Papaya skin split 14
   m_TagString: Untagged
@@ -2299,6 +2534,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &7895950267951890716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5950083622655209633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6222609568834065278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,6 +2559,7 @@ GameObject:
   - component: {fileID: 3510099898447651048}
   - component: {fileID: 2883038321366602611}
   - component: {fileID: 8856851013314261915}
+  - component: {fileID: 3426289789875855895}
   m_Layer: 10
   m_Name: Papaya skin split 24
   m_TagString: Untagged
@@ -2420,6 +2668,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &3426289789875855895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6222609568834065278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7843332883855302622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2433,6 +2693,7 @@ GameObject:
   - component: {fileID: 5588594521877860394}
   - component: {fileID: 6644318262214499031}
   - component: {fileID: 2406112161116845238}
+  - component: {fileID: 620054021824992305}
   m_Layer: 10
   m_Name: Papaya skin split 20
   m_TagString: Untagged
@@ -2541,6 +2802,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &620054021824992305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843332883855302622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7933773670308562371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2827,7 @@ GameObject:
   - component: {fileID: 5229888191041371819}
   - component: {fileID: 5594502677255331678}
   - component: {fileID: 5786522722119002380}
+  - component: {fileID: 4374134506095365635}
   m_Layer: 10
   m_Name: Papaya skin split 16
   m_TagString: Untagged
@@ -2662,6 +2936,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &4374134506095365635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7933773670308562371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8025062922132649480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2675,6 +2961,7 @@ GameObject:
   - component: {fileID: 968956776747477027}
   - component: {fileID: 3621462430565460040}
   - component: {fileID: 6820744759252205606}
+  - component: {fileID: 5248093340574582162}
   m_Layer: 10
   m_Name: Papaya skin split 15
   m_TagString: Untagged
@@ -2783,6 +3070,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &5248093340574582162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8025062922132649480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8181034221168358137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,6 +3095,7 @@ GameObject:
   - component: {fileID: 3014172084433446477}
   - component: {fileID: 4813096449597746565}
   - component: {fileID: 3840402785184332599}
+  - component: {fileID: 4652382128656221078}
   m_Layer: 10
   m_Name: Papaya skin split 10
   m_TagString: Untagged
@@ -2904,6 +3204,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &4652382128656221078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8181034221168358137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8248957451155401391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,6 +3229,7 @@ GameObject:
   - component: {fileID: -5496696325128737621}
   - component: {fileID: 2078280653062979260}
   - component: {fileID: 8931963553406829941}
+  - component: {fileID: 5355656282976274192}
   m_Layer: 0
   m_Name: Green Papaya
   m_TagString: Untagged
@@ -3180,6 +3493,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 1
+--- !u!114 &5355656282976274192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8248957451155401391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8529187622876278397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3193,6 +3518,7 @@ GameObject:
   - component: {fileID: 919405257389173813}
   - component: {fileID: 2727350487693469132}
   - component: {fileID: 4604128535789281210}
+  - component: {fileID: 1062233956984223815}
   m_Layer: 10
   m_Name: Papaya skin split 1
   m_TagString: Untagged
@@ -3301,6 +3627,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &1062233956984223815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8529187622876278397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8745178067654936226
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,6 +3652,7 @@ GameObject:
   - component: {fileID: 2176488948754991429}
   - component: {fileID: 6860717236719711776}
   - component: {fileID: 7032913153315061800}
+  - component: {fileID: 5239873726879218371}
   m_Layer: 10
   m_Name: Papaya skin split 11
   m_TagString: Untagged
@@ -3422,6 +3761,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &5239873726879218371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8745178067654936226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9010901810769217242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,6 +3786,7 @@ GameObject:
   - component: {fileID: 6800625699144536606}
   - component: {fileID: 3179530198035881991}
   - component: {fileID: 5773486184285169791}
+  - component: {fileID: 4898805109497237520}
   m_Layer: 10
   m_Name: Papaya skin split 4
   m_TagString: Untagged
@@ -3543,3 +3895,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 3
+--- !u!114 &4898805109497237520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9010901810769217242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

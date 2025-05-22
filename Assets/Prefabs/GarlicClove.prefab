@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3815208831368738150}
   - component: {fileID: 3823185537472073536}
   - component: {fileID: -7694082028463755454}
+  - component: {fileID: 223590158188508466}
   m_Layer: 10
   m_Name: GarlicClove
   m_TagString: Crushable
@@ -302,3 +303,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   other: {fileID: 5629874631841146494, guid: 976caaaf8aba1e44ab173fc087bb3d8a, type: 3}
   forStep: 2
+--- !u!114 &223590158188508466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814006796433354689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb9a563a2a3ccf45bf0dc70fb549fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

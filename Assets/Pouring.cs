@@ -17,7 +17,6 @@ public class Pouring : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(transform.eulerAngles.z);
         actualAngle = (int)transform.eulerAngles.z;
         gameObject.GetComponentInChildren<ParticleSystem>().transform.eulerAngles = new Vector3(90, 0, 0);
         if(actualAngle > 30 && actualAngle < 330 && capOff)

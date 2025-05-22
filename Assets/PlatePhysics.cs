@@ -32,6 +32,8 @@ public class PlatePhysics : MonoBehaviour
     {
         if(whoknows != Vector3.zero && collision.gameObject.tag == "Plate" && plateGrabbed)
         {
+            //check if plate is tilted down so it slides off
+            if(collision.transform.eulerAngles.x > 250 && collision.transform.eulerAngles.x < 300)
             transform.position = whoknows + collision.transform.position;
             if(whoknows.y > 0.05)
             {

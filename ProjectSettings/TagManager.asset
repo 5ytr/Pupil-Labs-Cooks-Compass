@@ -10,11 +10,12 @@ TagManager:
   - Crushable
   - Unsliceable
   - Filler
+  - Plate
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Floor
   - Water
   - UI
   - Body

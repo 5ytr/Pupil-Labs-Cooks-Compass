@@ -8,4 +8,9 @@ public class Tester : MonoBehaviour
     {
         //print(other.name);
     }
+
+    private void Update()
+    {
+        print(transform.eulerAngles.x);
+    }
 }
