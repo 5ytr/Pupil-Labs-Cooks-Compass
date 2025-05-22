@@ -41,4 +41,9 @@ public class BowlShenanigans : MonoBehaviour
             this.transform.GetChild(0).gameObject.AddComponent<MeshCollider>();
         }
     }
+
+    public bool getDead()
+    {
+        return dead;
+    }
 }

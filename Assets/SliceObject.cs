@@ -77,7 +77,7 @@ public class SliceObject : MonoBehaviour
         RecipeUpdater ru = slicedObject.AddComponent<RecipeUpdater>();
 
         collider.convex = true;
-        rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
+        //rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
 
     }
 }
