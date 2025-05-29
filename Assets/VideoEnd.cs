@@ -6,7 +6,6 @@ public class VideoEnd : MonoBehaviour
 {
     public VideoPlayer m_VideoPlayer;
     public GameObject videoObject;
-    public GameObject recipes;
 
     void Awake () 
     {
@@ -18,7 +17,6 @@ public class VideoEnd : MonoBehaviour
     {
         player.Stop();
         videoObject.SetActive(false);
-        recipes.SetActive(true);
     }
     // Start is called before the first frame update
     void Start()
